@@ -236,8 +236,8 @@
         <div class="hero-body">
           <img src="../static/images/main_performance.png" alt="Teaser Image" style="max-width: 100%;" height="100%">
           <h2 class="subtitle is-left">
-            <span class="framework1">Group-image concept learning module:</span><br>
-            <span class="framework1">utilizing a group of input images for learning the text-aligned embedding of common objects.</span>
+            <span class="framework1">It can be observed from the visual comparison that CosalPure does better than 
+              DiffPure and DDA in purification for co-salient object detection. 
           </h2>
         </div>
 
@@ -257,8 +257,12 @@
           <img src="../static/images/ablation.png" alt="Teaser Image" style="max-width: 60%;" height="100%">
         </div>
         <h2 class="subtitle is-left" style="margin-top: -2.5rem;">
-          <span class="framework1">Group-image concept learning module:</span><br>
-          <span class="framework1">utilizing a group of input images for learning the text-aligned embedding of common objects.</span>
+          <span class="framework1">To validate the effect of the learned concepts on CoSOD results, 
+            we conduct ablation studies on Cosal2015 and CoSOD3k.
+            "w/o concept inversion" represents only utilizing the continuous representation module 
+            and not applying the subsequent purification process.
+            "w/ None concept" denotes passing a meaningless "None" as the concept during the purification.
+            "w/ learned concept" denotes the complete pipeline.
         </h2>
       </div>
     </div>
